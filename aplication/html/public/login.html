@@ -1,0 +1,38 @@
+<div class="container">
+	<div class="row main">
+		<div class="main-login main-center">
+			<form class="form-horizontal" method="post" action="#" id="form_lo">
+				<div class="panel-heading">
+		       		<div class="panel-title text-center">
+		       			<div id="notification2"></div>
+		            </div>
+		        </div>
+				<!-- INPUT NOMBRE -->	
+				<div class="form-group">
+					<label for="name" class="cols-sm-2 control-label text sr-only">Correo electrónico / nombre de usuario</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+							<input type="text" class="form-control" name="nombre_login" id="nombre_login"  placeholder="E-mail / nombre de Usuario" required/>
+						</div>
+					</div>
+				</div>
+				<!-- INPUT PASSWORD -->
+				<div class="form-group">
+					<label for="username" class="cols-sm-2 control-label sr-only">Contraseña</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+							<input type="password" class="form-control" name="pass_login" id="pass_login"  placeholder="Ingrese su Contraseña" required/>
+						</div>
+					</div>
+				</div>
+				<!-- INPUT SUBMIT-->
+				<div class="form-group ">
+					<button class="btn btn-md btn-primary btn-block" name="logear" id="logear" type="submit">Conectate</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<script src="view/app/js/login.js"></script>

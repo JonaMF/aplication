@@ -1,0 +1,24 @@
+<div id="edita_registros" class="modal fade" role="dialog">
+   <div class="modal-dialog">
+      <div class="modal-content">
+         <div class="modal-header">
+            <h5 class="modal-title ">Modifique cuidadosamente sus credenciales</h5>
+            <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i></button>
+         </div>
+         <div class="modal-body">
+            <div id='modal_actualizar' class="form-group">
+               <label for="seleccion">Selecciona acción</label>
+               <select  id="lista_datos" class="form-control">
+                  <option>Acción</option>
+                  <option value="editar" id="editar">Editar</option>
+                  <option value="eliminar" id="eliminar">Eliminar</option>
+               </select>
+            </div>
+            <div id="__modal"></div>
+         </div>
+         <div class="modal-footer" id="save_ctn">
+            <button type="button" class="btn btn-primary" data-dismiss="modal" id="save">Guardar</button>
+         </div>
+      </div>
+   </div>
+</div>

@@ -1,0 +1,55 @@
+<div class="container">
+	<div class="row main">
+		<div class="main-login main-center">
+			<form class="form-horizontal" method="post" id="nuevo_diag" action="#">
+
+				<!-- INPUT CANTIDAD -->	
+				<div class="form-group">
+					<label for="cantidad" class="cols-sm-2 control-label text sr-only">Cant</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-id-card"></i></span>
+							<input type="number" class="form-control" id="cantidad" name="cantidad"  placeholder="cantidad" required />
+						</div>
+					</div>
+				</div>
+				<!-- INPUT CONCEPTO -->
+				<div class="form-group">
+					<label for="concepto" class="cols-sm-2 control-label sr-only">concepto</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-user-circle" aria-hidden="true"></i></span>
+							<input type="text" class="form-control" id="concepto" name="concepto"  placeholder="Ingrese su concepto" required/>
+						</div>
+					</div>
+				</div>
+				<!-- INPUT SUBTOTAL -->
+				<div class="form-group">
+					<label for="subtotal" class="cols-sm-2 control-label sr-only">subtotal</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-at fa-lg"></i></span>
+                            <input type="number" class="form-control" id="subtotal" name="subtotal" placeholder="subtotal" required/>
+						</div>
+					</div>
+				</div>
+				<!-- INPUT TOTAL -->
+				<div class="form-group">
+					<label for="total" class="cols-sm-2 control-label sr-only">total</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-at fa-lg"></i></span>
+							<input type="number" class="form-control" id="total" name="total" placeholder="total..." required/>
+							
+						</div>
+					</div>
+				</div>
+				<!-- INPUT SUBMIT-->
+				<div class="form-group" id="boton_diag">
+					<input class="btn btn-md btn-primary btn-block" id="crea_dig" type="submit" value="Nuevo registro"/>
+				</div>
+
+	    	</form>
+		</div>
+	</div>
+</div>

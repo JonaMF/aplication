@@ -1,0 +1,69 @@
+<div class="container">
+	<div class="row main">
+		<div class="main-login main-center">
+			<form class="form-horizontal" method="post" id="form_re" action="#">
+				<div class="panel-heading">
+		       		<div class="panel-title text-center">
+		       			<div id="notification"></div>
+		            </div>
+		        </div>
+				<!-- INPUT NOMBRE -->	
+				<div class="form-group">
+					<label for="nombre" class="cols-sm-2 control-label text sr-only">Nombre</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-id-card"></i></span>
+							<input type="text" class="form-control" id="nombre" name="nombre"  placeholder="Ingrese su nombre" required />
+						</div>
+					</div>
+				</div>
+				<!-- INPUT APELLIDO -->
+				<div class="form-group">
+					<label for="apellido" class="cols-sm-2 control-label sr-only">Apellido</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-user-circle" aria-hidden="true"></i></span>
+							<input type="text" class="form-control" id="apellido" name="apellido"  placeholder="Ingrese su apellido" required/>
+						</div>
+					</div>
+				</div>
+				<!-- INPUT EMAIL -->
+				<div class="form-group">
+					<label for="email" class="cols-sm-2 control-label sr-only">Email</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-at fa-lg"></i></span>
+							<input type="email" class="form-control" id="correo" name="correo" placeholder="Ingrese su email" required/>
+							
+						</div>
+					</div>
+				</div>
+				<!-- INPUT USUARIO -->
+				<div class="form-group">
+					<label for="username" class="cols-sm-2 control-label sr-only">Usuario</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>
+							<input type="text" class="form-control"  id="usuario" name="usuario" placeholder="Ingrese su usuario" required/>
+						</div>
+					</div>
+				</div>
+				<!-- INPUT CONTRASEÑA -->
+				<div class="form-group">
+					<label for="pass" class="cols-sm-2 control-label sr-only">Contraseña</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+							<input type="password" class="form-control" name="pass" id="pass"  placeholder="Ingrese su contraseña" required/>
+						</div>
+					</div>
+				</div>
+				<!-- INPUT SUBMIT-->
+				<div class="form-group">
+					<input class="btn btn-md btn-primary btn-block" id="registrar" type="submit" value="Registrarse"/>
+				</div>
+	    	</form>
+		</div>
+	</div>
+</div>
+<script src="view/app/js/reg.js"></script>

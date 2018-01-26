@@ -1,0 +1,54 @@
+<div class="container">
+	<div class="row main">
+		<div class="main-login main-center">
+			<form class="form-horizontal" method="post" id="nuevo_pac" action="#">
+
+				<!-- INPUT NOMBRE -->	
+				<div class="form-group">
+					<label for="nombre" class="cols-sm-2 control-label text sr-only">Nombre</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-id-card"></i></span>
+							<input type="text" class="form-control" id="nombre" name="nombre"  placeholder="Ingrese su nombre" required />
+						</div>
+					</div>
+				</div>
+				<!-- INPUT APELLIDO -->
+				<div class="form-group">
+					<label for="apellido" class="cols-sm-2 control-label sr-only">Apellido</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-user-circle" aria-hidden="true"></i></span>
+							<input type="text" class="form-control" id="apellido" name="apellido"  placeholder="Ingrese su apellido" required/>
+						</div>
+					</div>
+				</div>
+				<!-- INPUT CEDULA -->
+				<div class="form-group">
+					<label for="cedula" class="cols-sm-2 control-label sr-only">Cedula</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-at fa-lg"></i></span>
+							<input type="textarea" class="form-control" id="cedula" name="cedula" placeholder="Cedula..." required/>
+							
+						</div>
+					</div>
+				</div>
+				<!-- INPUT DIAGNOSTICO -->
+				<div class="form-group">
+					<label for="diagnostico" class="cols-sm-2 control-label sr-only">diag</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+                            <textarea class="form-control" id="diag" name="diag" placeholder="Diagnostico" required></textarea>
+						</div>
+					</div>
+				</div>
+				<!-- INPUT SUBMIT-->
+				<div class="form-group" id="boton_paciente">
+					<input class="btn btn-md btn-primary btn-block" id="crea_pac" type="submit" value="Nuevo paciente"/>
+				</div>
+
+	    	</form>
+		</div>
+	</div>
+</div>
